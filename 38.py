@@ -1,11 +1,11 @@
-#매개변수 지정하여 호출하기
+#매개변수 지정하여 호출하는 방법
 def add(a,b):
     return a+b
 
 result = add(b=3, a=7)
 print(result)
 
-#여러개의 입력값을 받는 함수를 만들기
+#여러개의 입력값을 받는 함수를 만드는 방법
 def add_many(*args):
     result = 0
     for i in args:
